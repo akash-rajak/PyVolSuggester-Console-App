@@ -10,11 +10,11 @@ namespace demo1
         static void Main(string[] args)
         {
 
-            string pythonScriptPath = @"C:\Users\MAQ\Music\Suggester.py";
+            string pythonScriptPath = @"C:\Users\MAQ\OneDrive - MAQ Software\Documents\Akash Rajak\Learning\Project\PyVolSuggester Console App\Suggester.py";
             //string pythonScriptPath = @"xmlParserV2.py";
             string functioname = "main";
             string ffmpeg_path = "C:/Users/MAQ/Path_programs/ffmpeg.exe";
-            string parameters = String.Format("{0} | {1} | {2}", pythonScriptPath, functioname, ffmpeg_path);
+            string parameters = String.Format("\"{0}\" | \"{1}\" | \"{2}\"", pythonScriptPath, functioname, ffmpeg_path);
 
             ProcessStartInfo startInfo = new ProcessStartInfo
             {
