@@ -1,12 +1,12 @@
 
-import subprocess
-
-my_libraries = ['time', 'pyaudio', 'pydub', 'pynput', 'wave', 'numpy', 'matplotlib', 'librosa', 'mutagen', 'tkinter', 'pathlib']
-for module in my_libraries:
-    try:
-        __import__(module)
-    except ImportError:
-        subprocess.check_call(["pip", "install", module])
+# import subprocess
+#
+# my_libraries = ['time', 'pyaudio', 'pydub', 'pynput', 'wave', 'numpy', 'matplotlib', 'librosa', 'mutagen', 'tkinter', 'pathlib']
+# for module in my_libraries:
+#     try:
+#         __import__(module)
+#     except ImportError:
+#         subprocess.check_call(["pip", "install", module])
 
 
 ## importing necessary library
@@ -26,6 +26,7 @@ from mutagen.wave import WAVE
 import subprocess
 import pathlib
 from pathlib import Path
+import sys
 
 
 ## declared necessary global variable
@@ -436,10 +437,10 @@ def exit_program():
 
 
 ## defining main function
-def main():
+def main(ffmpeg_path_arg):
     global file, ffmpeg_path
 
-    ffmpeg_path = input("Enter ffmpeg module path : ")
+    ffmpeg_path = ffmpeg_path_arg
 
     print("Select Audio file : ")
     file = filedialog.askopenfilename(title="Select an Audio file", filetypes=[("Audio Files", "*.mp3"), ("All Files", "*.*")])
@@ -463,9 +464,14 @@ def main():
 
 
 if __name__ == '__main__':
+    commandLineString = " ".join(sys.argv)
+    arguments = commandLineString.split("|")
+    print("argument", arguments)
+    ffmpeg_path_arg = arguments[2].strip()
+    print("ffmpeg PATH :", ffmpeg_path_arg)
     try:
-        # print("Main Trigger Started")
-        main()
-        # print("Main Triggered")
+        print("Main Trigger Started")
+        main(ffmpeg_path_arg)
+        print("Main Triggered")
     except:
         print("Trigger Failed")
