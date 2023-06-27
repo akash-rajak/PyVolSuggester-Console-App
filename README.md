@@ -1,5 +1,5 @@
 ## ✔ PyVolSuggester-Console-App Console App
-- 
+- A Console App(a command line application) for PyVolSuggester that can run on .NET on Windows, Linux and macOS.
 
 
 <p align = "center">
@@ -27,13 +27,6 @@
 	<img src = "https://img.shields.io/github/commit-activity/w/akash-rajak/PyVolSuggester-Console-App", alt = "GitHub commit activity/week">
 	<img src = "https://img.shields.io/github/last-commit/akash-rajak/PyVolSuggester-Console-App", alt = "GitHub last commit">
 	<img src = "https://img.shields.io/github/discussions/akash-rajak/PyVolSuggester-Console-App", alt = "GitHub Discussions">
-</p>
-<p align = "center">
-	<img src = "https://img.shields.io/github/downloads/akash-rajak/PyVolSuggester-Console-App/total", alt = "GitHub all releases">
-	<img src = "https://img.shields.io/github/v/release/akash-rajak/PyVolSuggester-Console-App", alt = "GitHub release version (latest by date)">
-	<img src = "https://img.shields.io/github/v/tag/akash-rajak/PyVolSuggester-Console-App", alt = "GitHub tag (latest by date)">
-	<img src = "https://img.shields.io/github/release-date/akash-rajak/PyVolSuggester-Console-App", alt = "GitHub Release Date">
-	<img src = "https://img.shields.io/github/release-date-pre/akash-rajak/PyVolSuggester-Console-App", alt = "GitHub (Pre-)Release Date">
 </p>
 <p align = "center">
 	<img src = "https://img.shields.io/github/license/akash-rajak/PyVolSuggester-Console-App", alt = "Github">
