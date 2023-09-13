@@ -37,7 +37,7 @@
 
 ### 📌How this Script works:
 - 
-
+<!--
 ****
 
 ### 📌Screenshots:
@@ -65,7 +65,7 @@
 ![image](https://github.com/akash-rajak/PyVolSuggester-Console-App/assets/57003737/b6858dbb-bf0e-432e-ae4d-83d7a52dd9a7)
 
 ![image](https://github.com/akash-rajak/PyVolSuggester-Console-App/assets/57003737/7967f8c5-26db-4069-bdf4-5fc58ca0a50e)
-
+-->
 ****
 
 ### 🌟Stargazers Over Time:
